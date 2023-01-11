@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="places-map-container">
+      <div class="sidebar">
+        <div class="list-section">
+          <div id="eats-listings" class="listings"></div>
+        </div>
+        <div class="list-section">
+          <div id="sights-listings" class="listings"></div>
+        </div>
+        <div class="list-section">
+          <div id="stays-listings" class="listings"></div>
+        </div>
+      </div>
+      <div id="map" class="map pad2">Map</div>
+      <div class="carousels-container">
+        <div class="places-carousel-heading"></div>
+        <div class="places-carousel"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
